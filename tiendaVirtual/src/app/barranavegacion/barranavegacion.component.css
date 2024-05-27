@@ -1,0 +1,26 @@
+/* Estilo de la barra de navegación */
+.navbar {
+    background-color: #333; 
+    overflow: hidden;
+}
+
+/* Estilo de los elementos de la lista de navegación */
+.navbar-menu {
+    display: flex;
+    justify-content: space-around; 
+    padding: 14px 0; 
+}
+
+/* Estilo de los enlaces */
+.navbar-menu li a {
+    color: white; 
+    text-decoration: none; 
+    padding: 14px 20px; 
+    display: block; 
+}
+
+/* Efecto de hover */
+.navbar-menu li a:hover {
+    background-color: #575757; 
+    transition: background-color 0.3s; 
+}

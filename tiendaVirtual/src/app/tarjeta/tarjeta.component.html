@@ -1,0 +1,10 @@
+<div class="cards-container" *ngFor="let item of card; let i=index">
+    {{i}}
+    <div class="card">
+        <img src="{{item.imagen}}" alt="Descripción de la imagen" class="imagen">
+        <div class="card-content">
+            <h2 class="card-title">{{item.titulo}}</h2>
+            <p class="card-text">{{item.descripcion}}</p>
+        </div>
+    </div>
+</div>

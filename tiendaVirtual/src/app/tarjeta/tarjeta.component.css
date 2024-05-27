@@ -1,0 +1,46 @@
+/* Contenedor de las tarjetas */
+.cards-container {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    padding: 20px; 
+    justify-content: flex-start; 
+}
+
+/* Estilo de la tarjeta */
+.card {
+    border: 2px solid black; 
+    border-radius: 15px; 
+    overflow: hidden; 
+    width: 300px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+/* Estilo de la imagen dentro de la tarjeta */
+.card-img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
+
+/* Contenido de la tarjeta */
+.card-content {
+    padding: 15px; /* Espaciado interno de la tarjeta */
+}
+
+/* Título de la tarjeta */
+.card-title {
+    margin: 0 0 10px; 
+    font-size: 1.5em; 
+}
+
+/* Texto de la tarjeta */
+.card-text {
+    margin: 0; 
+    font-size: 1em; 
+}
+
+.imagen{
+    width: 200px;
+    height: 200px;
+}
