@@ -5,7 +5,8 @@ import { ProductoComponent } from './producto/producto.component';
 
 export const routes: Routes = [
 {path:"",component:HomeComponent},
-{path:"producto", component:ProductoComponent}
+{path:"producto", component:ProductoComponent},
+{path:"**", redirectTo:""}
 
 
 ];
